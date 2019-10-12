@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="UIAModelStoreContainer" CdmEntityContainer="ContextoBDUIA">
+    <EntitySetMapping Name="Persona">
+      <EntityTypeMapping TypeName="UIAModel.Persona">
+        <MappingFragment StoreEntitySet="Persona">
+          <ScalarProperty Name="idPersona" ColumnName="idPersona" />
+          <ScalarProperty Name="identificacion" ColumnName="identificacion" />
+          <ScalarProperty Name="nomPersona" ColumnName="nomPersona" />
+          <ScalarProperty Name="ape1Persona" ColumnName="ape1Persona" />
+          <ScalarProperty Name="ape2Persona" ColumnName="ape2Persona" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
